@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B30FDC61EE114BF003E9FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FDC51EE114BF003E9FE3 /* main.m */; };
+		2B30FDC91EE114BF003E9FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FDC81EE114BF003E9FE3 /* AppDelegate.m */; };
+		2B30FDCC1EE114BF003E9FE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FDCB1EE114BF003E9FE3 /* ViewController.m */; };
+		2B30FDCF1EE114BF003E9FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FDCD1EE114BF003E9FE3 /* Main.storyboard */; };
+		2B30FDD11EE114C0003E9FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FDD01EE114C0003E9FE3 /* Assets.xcassets */; };
+		2B30FDD41EE114C0003E9FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FDD21EE114C0003E9FE3 /* LaunchScreen.storyboard */; };
+		2B30FDDF1EE114C0003E9FE3 /* ATNStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FDDE1EE114C0003E9FE3 /* ATNStoreTests.m */; };
+		2B30FDEA1EE114C0003E9FE3 /* ATNStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FDE91EE114C0003E9FE3 /* ATNStoreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B30FDDB1EE114C0003E9FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30FDB91EE114BE003E9FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30FDC01EE114BF003E9FE3;
+			remoteInfo = ATNStore;
+		};
+		2B30FDE61EE114C0003E9FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30FDB91EE114BE003E9FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30FDC01EE114BF003E9FE3;
+			remoteInfo = ATNStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B30FDC11EE114BF003E9FE3 /* ATNStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FDC51EE114BF003E9FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B30FDC71EE114BF003E9FE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B30FDC81EE114BF003E9FE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B30FDCA1EE114BF003E9FE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B30FDCB1EE114BF003E9FE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B30FDCE1EE114BF003E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B30FDD01EE114C0003E9FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B30FDD31EE114C0003E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B30FDD51EE114C0003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30FDDA1EE114C0003E9FE3 /* ATNStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FDDE1EE114C0003E9FE3 /* ATNStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNStoreTests.m; sourceTree = "<group>"; };
+		2B30FDE01EE114C0003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30FDE51EE114C0003E9FE3 /* ATNStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FDE91EE114C0003E9FE3 /* ATNStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNStoreUITests.m; sourceTree = "<group>"; };
+		2B30FDEB1EE114C0003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B30FDBE1EE114BF003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDD71EE114C0003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDE21EE114C0003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B30FDB81EE114BE003E9FE3 = {
+			isa = PBXGroup;
+			children = (
+				2B30FDC31EE114BF003E9FE3 /* ATNStore */,
+				2B30FDDD1EE114C0003E9FE3 /* ATNStoreTests */,
+				2B30FDE81EE114C0003E9FE3 /* ATNStoreUITests */,
+				2B30FDC21EE114BF003E9FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B30FDC21EE114BF003E9FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FDC11EE114BF003E9FE3 /* ATNStore.app */,
+				2B30FDDA1EE114C0003E9FE3 /* ATNStoreTests.xctest */,
+				2B30FDE51EE114C0003E9FE3 /* ATNStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B30FDC31EE114BF003E9FE3 /* ATNStore */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FDC71EE114BF003E9FE3 /* AppDelegate.h */,
+				2B30FDC81EE114BF003E9FE3 /* AppDelegate.m */,
+				2B30FDCA1EE114BF003E9FE3 /* ViewController.h */,
+				2B30FDCB1EE114BF003E9FE3 /* ViewController.m */,
+				2B30FDCD1EE114BF003E9FE3 /* Main.storyboard */,
+				2B30FDD01EE114C0003E9FE3 /* Assets.xcassets */,
+				2B30FDD21EE114C0003E9FE3 /* LaunchScreen.storyboard */,
+				2B30FDD51EE114C0003E9FE3 /* Info.plist */,
+				2B30FDC41EE114BF003E9FE3 /* Supporting Files */,
+			);
+			path = ATNStore;
+			sourceTree = "<group>";
+		};
+		2B30FDC41EE114BF003E9FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FDC51EE114BF003E9FE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B30FDDD1EE114C0003E9FE3 /* ATNStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FDDE1EE114C0003E9FE3 /* ATNStoreTests.m */,
+				2B30FDE01EE114C0003E9FE3 /* Info.plist */,
+			);
+			path = ATNStoreTests;
+			sourceTree = "<group>";
+		};
+		2B30FDE81EE114C0003E9FE3 /* ATNStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FDE91EE114C0003E9FE3 /* ATNStoreUITests.m */,
+				2B30FDEB1EE114C0003E9FE3 /* Info.plist */,
+			);
+			path = ATNStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B30FDC01EE114BF003E9FE3 /* ATNStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FDEE1EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStore" */;
+			buildPhases = (
+				2B30FDBD1EE114BF003E9FE3 /* Sources */,
+				2B30FDBE1EE114BF003E9FE3 /* Frameworks */,
+				2B30FDBF1EE114BF003E9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNStore;
+			productName = ATNStore;
+			productReference = 2B30FDC11EE114BF003E9FE3 /* ATNStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B30FDD91EE114C0003E9FE3 /* ATNStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FDF11EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStoreTests" */;
+			buildPhases = (
+				2B30FDD61EE114C0003E9FE3 /* Sources */,
+				2B30FDD71EE114C0003E9FE3 /* Frameworks */,
+				2B30FDD81EE114C0003E9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B30FDDC1EE114C0003E9FE3 /* PBXTargetDependency */,
+			);
+			name = ATNStoreTests;
+			productName = ATNStoreTests;
+			productReference = 2B30FDDA1EE114C0003E9FE3 /* ATNStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B30FDE41EE114C0003E9FE3 /* ATNStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FDF41EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStoreUITests" */;
+			buildPhases = (
+				2B30FDE11EE114C0003E9FE3 /* Sources */,
+				2B30FDE21EE114C0003E9FE3 /* Frameworks */,
+				2B30FDE31EE114C0003E9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B30FDE71EE114C0003E9FE3 /* PBXTargetDependency */,
+			);
+			name = ATNStoreUITests;
+			productName = ATNStoreUITests;
+			productReference = 2B30FDE51EE114C0003E9FE3 /* ATNStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B30FDB91EE114BE003E9FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "于洪志";
+				TargetAttributes = {
+					2B30FDC01EE114BF003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+					};
+					2B30FDD91EE114C0003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B30FDC01EE114BF003E9FE3;
+					};
+					2B30FDE41EE114C0003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B30FDC01EE114BF003E9FE3;
+					};
+				};
+			};
+			buildConfigurationList = 2B30FDBC1EE114BE003E9FE3 /* Build configuration list for PBXProject "ATNStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B30FDB81EE114BE003E9FE3;
+			productRefGroup = 2B30FDC21EE114BF003E9FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B30FDC01EE114BF003E9FE3 /* ATNStore */,
+				2B30FDD91EE114C0003E9FE3 /* ATNStoreTests */,
+				2B30FDE41EE114C0003E9FE3 /* ATNStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B30FDBF1EE114BF003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FDD41EE114C0003E9FE3 /* LaunchScreen.storyboard in Resources */,
+				2B30FDD11EE114C0003E9FE3 /* Assets.xcassets in Resources */,
+				2B30FDCF1EE114BF003E9FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDD81EE114C0003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDE31EE114C0003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B30FDBD1EE114BF003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FDCC1EE114BF003E9FE3 /* ViewController.m in Sources */,
+				2B30FDC91EE114BF003E9FE3 /* AppDelegate.m in Sources */,
+				2B30FDC61EE114BF003E9FE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDD61EE114C0003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FDDF1EE114C0003E9FE3 /* ATNStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FDE11EE114C0003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FDEA1EE114C0003E9FE3 /* ATNStoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B30FDDC1EE114C0003E9FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30FDC01EE114BF003E9FE3 /* ATNStore */;
+			targetProxy = 2B30FDDB1EE114C0003E9FE3 /* PBXContainerItemProxy */;
+		};
+		2B30FDE71EE114C0003E9FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30FDC01EE114BF003E9FE3 /* ATNStore */;
+			targetProxy = 2B30FDE61EE114C0003E9FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B30FDCD1EE114BF003E9FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30FDCE1EE114BF003E9FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B30FDD21EE114C0003E9FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30FDD31EE114C0003E9FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B30FDEC1EE114C0003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B30FDED1EE114C0003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B30FDEF1EE114C0003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B30FDF01EE114C0003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B30FDF21EE114C0003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNStore.app/ATNStore";
+			};
+			name = Debug;
+		};
+		2B30FDF31EE114C0003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNStore.app/ATNStore";
+			};
+			name = Release;
+		};
+		2B30FDF51EE114C0003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATNStore;
+			};
+			name = Debug;
+		};
+		2B30FDF61EE114C0003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATNStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B30FDBC1EE114BE003E9FE3 /* Build configuration list for PBXProject "ATNStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FDEC1EE114C0003E9FE3 /* Debug */,
+				2B30FDED1EE114C0003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B30FDEE1EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FDEF1EE114C0003E9FE3 /* Debug */,
+				2B30FDF01EE114C0003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B30FDF11EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FDF21EE114C0003E9FE3 /* Debug */,
+				2B30FDF31EE114C0003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B30FDF41EE114C0003E9FE3 /* Build configuration list for PBXNativeTarget "ATNStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FDF51EE114C0003E9FE3 /* Debug */,
+				2B30FDF61EE114C0003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B30FDB91EE114BE003E9FE3 /* Project object */;
+}
